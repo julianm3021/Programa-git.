@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro_usuario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="cuadro">
+        <header>
+            <h1>REGISTRO</h1>
+        </header>
+
+        <form>
+            <i class="fa-solid fa-user"></i>
+            <input class="contenedor" type="text" placeholder="Ingrese nombre"><br>
+            <i class="fa-solid fa-user-tag"></i>
+            <input class="contenedor" type="text" placeholder="Ingrese apellidos"><br>
+            <i class="fa-solid fa-envelope"></i>
+            <input class="contenedor" type="email" placeholder="Ingrese correo"><br>
+            <i class="fa-solid fa-lock"></i>
+            <input class="contenedor" type="password" placeholder="Ingrese contraseña"><br>
+            <label for="tipo de documento">Tipo de documento:</label><br>
+            <i class="fa-solid fa-id-card"></i>
+            <select class="contenedor" name="tipo de documento" id="tipo de documento">
+                <option value="cedula de ciudadania">Cedula de ciudadanía</option>
+                <option value="tarjeta de identidad">Tarjeta de identidad</option>
+                <option value="cedula de extranjeria">Cedula de extranjería</option>
+                <option value="pasaporte">Pasaporte</option>
+            </select>
+            <br>
+            <i class="fa-solid fa-file-signature"></i>
+            <input class="contenedor" type="text" placeholder="Numero de documento">
+            <br>
+            <i class="fa-solid fa-calendar-alt"></i>
+            <label for="fecha de naciemiento">Fecha de nacimento</label><br>
+            <input class="contenedor" type="date"><br><br>
+            <button class="button">Registrarse</button><br><br>
+            <a href="#">iniciar sesión </a>
+        </form>
+    </section>
+
+</body>
+
+</html>
